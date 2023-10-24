@@ -1,0 +1,92 @@
+% Preamble
+\documentclass{resume}
+
+% Set Header Information
+\setname{Kyle Manke}
+\setphone{(253) 778-0100}
+\setemail{kmanke@usc.edu}
+\setlocation{Tacoma, WA}
+\setlinkedin{linkedin.com/in/kylemanke}
+\setgithub{github.com/kylemanke}
+
+\begin{document}
+\resumeheader
+% Education Section
+\sectiontitle{Education}
+\subsectiontitle{University of Southern California, Viterbi School of Engineering}{Los Angeles, CA}
+\subsectionsubtitle{Master of Science, Computer Science}{May 2023}
+\gpa{4.0}
+\subsectionsubtitle{Bachelor of Science, Computer Engineering/Computer Science}{May 2022}
+\gpa{3.96}
+\raggedright\noindent\textbf{Honors:} Summa Cum Laude, The Order of Arete, Presidential Scholar (half-tuition merit scholarship awarded to 200 of 64,000 applicants)\\
+\noindent\textbf{Relevant Coursework:} Digital Design, VLSI Design, Computer Architecture, Embedded Systems, Distributed/Parallel Computing, Operating Systems, Internetworking, Machine Learning, Artificial Intelligence, Compiler Development, Cryptography, Data Structures, Algorithms, Discrete Math, Linear Algebra
+% Skills
+\sectiontitle{Skills}
+\begin{skilllist}
+	\skillitem{Languages}{C/\cpp, Python, Java, C\texttt{\#}, Verilog, x86 Assembly, Lua}
+	\skillitem{Technologies}{Apache Airflow, LLVM, PyTorch, scikit-learn, Pandas, Numpy}
+	\skillitem{Databases}{SQL Server, Oracle, Salesforce, DBT}
+	\skillitem{Tools}{Linux, GDB, Github, Azure DevOps, Make}
+	\skillitem{Hardware Design}{Vivado, ModelSim, Virtuoso, Icarus Verilog, GTKWave}
+\end{skilllist}
+% Experiences1
+\sectiontitle{Work Experiences \& Leadership}
+\subsectiontitle{USC Provost IT}{Los Angeles, CA}
+\subsectionsubtitle{Software Engineer}{June 2021 - May 2023}
+\begin{resumelist}
+	\resumeitem{Implemented data pipelines to interface with USC's academic databases in Python}
+	\resumeitem{Optimized legacy pipelines, producing a speed-up of 96x}
+	\resumeitem{Designed unit tests in Python and SQL to verify pipeline, database, and API updates}
+	\resumeitem{Automated USC's academic reporting system, saving 10 employees 2$\texttt{+}$ hours a day}
+\end{resumelist}
+\subsectiontitle{Dragonfruit, AI}{San Francisco, CA (Remote)}
+\subsectionsubtitle{Summer Computer Vision Intern (received return offer)}{May 2020 - August 2020}
+\begin{resumelist}
+	\resumeitem{Developed and integrated an innovative object re-identification system to identify pedestrians and vehicles spanning multiple physical security videos with ~80\% accuracy in production}
+	\resumeitem{Trained multiple TensorFlow MobileNet models with a custom semi-hard triplet loss training pipeline}
+\end{resumelist}
+\subsectiontitle{Bellarmine Preparatory School}{Tacoma, WA}
+\subsectionsubtitle{Volunteer Computer Science Teacher}{September 2023 - Present}
+\begin{resumelist}
+	\resumeitem{Co-teach Intro. to Programming (Python), Intro. to Python, and AP Computer Science Principles (Java)}
+	\resumeitem{Assist with lesson plans, assignments, and tutoring}
+\end{resumelist}
+% Projects
+\sectiontitle{Projects}
+\projectheading{STUB}{\cpp, Python, Winsock, Sqlite, Github, Make}{Current}
+\begin{resumelist}
+	\resumeitem{Custom built HTTP/HTTPS multi-threaded web server in \cpp17}
+	\resumeitem{Allows for rapid testing and development of REST APIs leveraging Python scripted endpoints}
+\end{resumelist}
+\projectheading{KyleOS}{\cpp, x86 Assembly, Qemu, GDB}{Spring 2023}
+\begin{resumelist}
+	\resumeitem{Designed a monolithic OS for the Raspberry Pi 3B+ using {\cpp} and assembly}
+	\resumeitem{Currently supports keyboard input, screen output, multithreading, and an EXT2 file system}
+\end{resumelist}
+\projectheading{Convolutional Neural Network}{Python, Pandas, Numpy}{Fall 2022}
+\begin{resumelist}
+	\resumeitem{Coded a simple CNN with Python and Numpy capable of early stopping, SGD, and momentum}
+	\resumeitem{Trained on the Fashion MNIST dataset and reached 85\% test accuracy}
+\end{resumelist}
+\projectheading{ESP8266 Library}{C, Python, WPA2}{Spring 2022}
+\begin{resumelist}
+	\resumeitem{Programmed a network library in C for the ESP8266 wireless chip supporting WPA2 standards}
+	\resumeitem{Debugged the library using physical waveforms and a Python test server running on AWS}
+\end{resumelist}
+\projectheading{FPGA Maze Solver}{Verilog, Tcl, Vivado, ModelSim}{Spring 2021}
+\begin{resumelist}
+	\resumeitem{Implemented a BFS-based maze solver in Verilog and ran on an Artix FPGA board}
+	\resumeitem{Tested implementations with ModelSim waveforms and custom Tcl scripts}
+\end{resumelist}
+\projectheading{C-Subset Compiler}{\cpp, LLVM, GoogleTest}{Spring 2021}
+\begin{resumelist}
+	\resumeitem{Developed a top-down LR(1) compiler for a subset of C with {\cpp} and LLVM}
+	\resumeitem{Utilized various optimization strategies (vectorization, SSA form, constant propagation)}
+\end{resumelist}
+% Interests
+\sectiontitle{Interests}
+\begin{resumelist}
+\resumeitem{Alpine Ski Racing, Gaming, Tennis (4.5 Ranking), Table Tennis, SCUBA Diving (Advanced Open Water)}
+\end{resumelist}
+
+\end{document}
